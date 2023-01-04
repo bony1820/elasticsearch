@@ -9,3 +9,12 @@ elasticsearch
 
 # Run demo
 node main
+
+# Install Kibana
+brew tap elastic/tap
+brew install elastic/tap/kibana-full
+
+# Start Kibana foreground
+kibana
+or:
+bin/kibana
